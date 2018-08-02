@@ -1,5 +1,5 @@
 import 
-  rtArray,
+  rtarray,
   shareddeque
 
 type

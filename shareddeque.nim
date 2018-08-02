@@ -3,7 +3,7 @@ import
   math
 
 type SharedDeque*[Size:static[int], T] = tuple
-  top,bottom: Atomic[uint16]
+  top, bottom: Atomic[uint16]
   baseArray: array[Size,T]
 
 
